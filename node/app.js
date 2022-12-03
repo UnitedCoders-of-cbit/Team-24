@@ -5,7 +5,7 @@ app.use(express.json())
 const cors = require("cors");
 app.use(cors());
 const bcrypt = require("bcryptjs");
-const mongoUrl = "mongodb+srv://ansh:Porn1234!@cluster0.etpmvzs.mongodb.net/?retryWrites=true&w=majority"
+const mongoUrl = "mongodb+srv://ansh:<password>@cluster0.etpmvzs.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose
   .connect(mongoUrl, {
